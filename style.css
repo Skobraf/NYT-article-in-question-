@@ -1,0 +1,17 @@
+body {
+  background: grey;
+}
+
+/*Header style*/
+#subscribe {
+  float: right;
+  position: relative;
+  top: -82px;
+}
+
+#main-logo {
+  clear: right;
+  position: relative;
+  top: -40px;
+  text-align: center;
+}
