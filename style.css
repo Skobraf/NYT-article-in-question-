@@ -3,15 +3,12 @@ body {
 }
 
 /*Header style*/
+#search {
+  float: left;
+}
 #subscribe {
   float: right;
-  position: relative;
-  top: -82px;
 }
-
 #main-logo {
-  clear: right;
-  position: relative;
-  top: -40px;
   text-align: center;
 }
