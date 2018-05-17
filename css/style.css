@@ -1,5 +1,60 @@
 
 /*Header style*/
+
+
+.navigator {
+  margin: 0 auto;
+  border-bottom: solid 1px rgb(204,204,204);
+  justify-content: flex-start;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background-color: white;
+  width: 1588px;
+}
+#subscribing button {
+  background-color: rgba(98, 136, 165);
+  border-radius: 3px;
+  border: solid 1px;
+  font-family: ;
+  font-size: 11px;
+  font-weight: 700;
+  color: white;
+  padding:7px 9px;
+  height: 30px;
+}
+
+#search {
+  float: left;
+  padding: 5px;
+}
+#search a {
+  padding: 10px;
+}
+#subscribing {
+  float: right;
+  padding-right: 20px;
+}
+#main-logo {
+  margin: 0 auto;
+  width: 200px;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: center;
+}
+.toolbar ul{
+  padding: 0;
+  display: flex;
+}
+.toolbar ul li {
+  padding: 10px;
+}
+.shareItem {
+  font-size: 30px;
+}
+
+
 /* ======================== BASE RULES ======================== */
 
 * {
@@ -18,6 +73,8 @@ a {
 	text-decoration: none;
 	color: #000;
 }
+
+
 
 /* ======================== LAYOUT RULES ======================== */
 
@@ -68,7 +125,7 @@ a {
 .main-page {
 	right: 0;
 	left: 0;
-	margin: 94px auto 0;
+	margin: 30px auto;
 	padding-top: 25px;
 	width: 1125px;
   box-shadow: -1px 0 4px 0px #e2e2e2;
