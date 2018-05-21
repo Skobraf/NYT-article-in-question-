@@ -41,7 +41,6 @@
 
 .toolbar {
   display: flex;
-  justify-content: center;
 }
 .toolbar ul{
   padding: 0;
@@ -51,7 +50,7 @@
   padding: 10px;
 }
 .shareItem {
-  font-size: 30px;
+  font-size: 20px;
 }
 
 
@@ -694,7 +693,7 @@ a {
 }
 
 .article-caption {
-	margin-bottom: 3rem;
+	margin-bottom: 1rem;
 }
 
 
@@ -766,21 +765,11 @@ a {
 
 .trending {
 	width: 360px;
+  padding-left: 30px
 }
 
 	.trending-list {
 		counter-reset: li;
-	}
-
-	.trending-tabs:before {
-		content: counter(li) ".";
-    counter-increment: li;
-    display: inline-block;
-    padding-top: 4px;
-    letter-spacing: -3.5px;
-    vertical-align: top;
-    width: 25px;
-    font-size: 22px;
 	}
 
 	.trending-tabs:first-child {
@@ -794,14 +783,9 @@ a {
 
 		.trending-links {
 			width: 260px;
-			line-height: 18px;
 			vertical-align: top;
 		}
 
-		.img-trending {
-			width: 40px;
-			height: 40px;
-		}
 
 
 
@@ -1060,8 +1044,8 @@ a {
 	}
 
 		.trending-links {
-			font-size: 15px;
-			color: #326891;
+			font-size: 21px;
+			color: #000000;
 		}
 
 .index-links-heading {
